@@ -1,5 +1,9 @@
 ## OpenCV: Open Source Computer Vision Library
 
+### OpenCV.js Modifications
+
+Check out [opencv.js](./platforms/js/opencv.js/README.md) \[[npm](https://www.npmjs.com/package/@mjyc/opencv.js)\] and [opencv_wasm.js](./platforms/js/opencv_wasm.js/README.md) \[[npm](https://www.npmjs.com/package/@mjyc/opencv_wasm.js)\] for modifications I made to OpenCV.js.
+
 ### Resources
 
 * Homepage: <http://opencv.org>
