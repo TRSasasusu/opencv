@@ -141,6 +141,7 @@ features2d = {'Feature2D': ['detect', 'compute', 'detectAndCompute', 'descriptor
               'AKAZE': ['create', 'setDescriptorType', 'getDescriptorType', 'setDescriptorSize', 'getDescriptorSize', 'setDescriptorChannels', 'getDescriptorChannels', 'setThreshold', 'getThreshold', 'setNOctaves', 'getNOctaves', 'setNOctaveLayers', 'getNOctaveLayers', 'setDiffusivity', 'getDiffusivity', 'getDefaultName'],
               'DescriptorMatcher': ['add', 'clear', 'empty', 'isMaskSupported', 'train', 'match', 'knnMatch', 'radiusMatch', 'clone', 'create'],
               'BFMatcher': ['isMaskSupported', 'create'],
+              'FlannBasedMatcher': ['add', 'clear', 'empty', 'isMaskSupported', 'train', 'match', 'knnMatch', 'radiusMatch', 'clone', 'create'],
               '': ['FAST', 'AGAST', 'drawKeypoints', 'drawMatches']}
 
 calib3d = {'': ['solvePnP', 'projectPoints']}
