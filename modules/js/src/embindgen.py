@@ -143,7 +143,7 @@ features2d = {'Feature2D': ['detect', 'compute', 'detectAndCompute', 'descriptor
               'BFMatcher': ['isMaskSupported', 'create'],
               '': ['FAST', 'AGAST', 'drawKeypoints', 'drawMatches']}
 
-calib3d = {'': ['solvePnP', 'projectPoints']}
+calib3d = {'': ['solvePnP', 'projectPoints', 'findHomography']}
 
 def makeWhiteList(module_list):
     wl = {}
